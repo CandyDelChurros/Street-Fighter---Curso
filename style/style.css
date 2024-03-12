@@ -96,15 +96,12 @@ main {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-    width: 128rem;
     flex-wrap: wrap;
-
 }
 
 .personagem {
-    border: .1rem solid black;
-    width: 23.8rem;
-    height: 40rem;
+    width: 20rem;
+    height: 37rem;
     transform: skew(-20deg);
     background-position: center;
     color: #fff;
@@ -118,37 +115,32 @@ main {
 }
 
 .personagem .aki-status{
-    position: absolute;
-    width: 23.8rem;
-    height: 44.1rem;
     visibility: hidden;
+    position: absolute;
+    width: 20rem;
+    height: 37rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.personagem .aki-status img{
-    position:absolute;
-}
 .personagem .status-top {
-    visibility: hidden;
+    position: relative;
     width: 23rem;
     height: 14rem;
+    margin-top: 3rem;
     background-image: url(../img/aki-pixel.png);
     background-size: 16.2rem;
     background-position-x: 2.9rem;
     background-position-y: -5rem;
 }
-
 .personagem .status-mid {
-    visibility: hidden;
-    width: 23rem;
     height: 15rem;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
 }
+
 .personagem .status-mid p {
     border-bottom: .1rem solid rgb(255, 0, 43);
     text-align: start;
@@ -165,7 +157,6 @@ main {
 }
 
 .personagem .status-bot {
-    visibility: hidden;
     margin-top: 2rem;
     width: 23rem;
     height: 5rem;
@@ -182,16 +173,28 @@ main {
     background: linear-gradient(90deg, rgb(197, 0, 187),rgb(100, 0, 139), rgb(100, 0, 139), rgb(197, 0, 187));
     color: #fff;
     text-shadow: 0px 2px 4px rgb(0, 0, 0)
-    
 }
+
 .img_person{
-    height: 45rem;
-    width: 41rem;
+    height: 38rem;
+    width: 33rem;
     transform: skew(20deg);
     position: relative;
 }
 
+.aki_img_person{
+    height: 38rem;
+    width: 33rem;
+    transform: skew(20deg);
+    position: relative;
+}
 .p_hover {
+    height: 45rem;
+    width: 23.8rem;
+    position:absolute;
+    opacity: 0;
+}
+.aki_p_hover {
     height: 45rem;
     width: 23.8rem;
     position:absolute;
@@ -200,11 +203,16 @@ main {
 
 .p_hover:hover{
     opacity: 1;
-    height: 45rem;
-    width: 41rem;
+    height: 38rem;
+    width: 33rem;
     transform: skew(20deg);
     transition: opacity 0.4s;
 }
-
-
+.aki_p_hover:hover{
+    opacity: 1;
+    height: 38rem;
+    width: 33rem;;
+    transform: skew(20deg);
+    transition: opacity 0.4s;
+}
 
