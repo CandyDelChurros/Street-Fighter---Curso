@@ -129,10 +129,35 @@ main {
     width: 23rem;
     height: 14rem;
     margin-top: 3rem;
+    background-repeat: no-repeat;
+}
+
+#aki-status{
     background-image: url(../img/aki-pixel.png);
     background-size: 16.2rem;
     background-position-x: 2.9rem;
     background-position-y: -5rem;
+}
+
+#cammy-status {
+    background-image: url(../img/cammy-pixel.png);
+    background-size: 19rem;
+    background-position-x: 2.9rem;
+    background-position-y: -3.4rem;
+}
+
+#marissa-status {
+    background-image: url(../img/marisa-pixel.png);
+    background-size: 15.5rem;
+    background-position-x: 2.9rem;
+    background-position-y: -1.5rem;
+}
+
+#juri-status {
+    background-image: url(../img/juri-pixel.png);
+    background-size: 15rem;
+    background-position-x: 2.9rem;
+    background-position-y: -1.5rem;
 }
 .personagem .status-mid {
     height: 15rem;
