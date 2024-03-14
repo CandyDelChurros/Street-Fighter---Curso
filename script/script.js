@@ -22,7 +22,7 @@ function cammy() {
 }
 
 function marisa() {
-    const menu = ["marisa-status-top", "marisa-status-mid", "marisa-status-bot"];
+    const menu = ["marissa-status-top", "marissa-status-mid", "marissa-status-bot"];
     menu.forEach((aparece) => {
         document.getElementById(aparece).style.visibility = 'visible';
     });
@@ -52,6 +52,48 @@ function juri() {
 
 
 
+function aki_desper() {
+    var akiStatus = document.getElementById('aki-status-top');
+    var akiStatusMid = document.getElementById('aki-status-mid');
+    var akiStatusBot = document.getElementById('aki-status-bot');
+
+    akiStatus.style.visibility = 'hidden';
+    akiStatusMid.style.visibility = 'hidden';
+    akiStatusBot.style.visibility = 'hidden';
+
+    const bg = ["aki_img_person", "aki_p_hover"];
+    bg.forEach((some) => {
+    Array.from(document.getElementsByClassName(some)).forEach((element) => { element.style.filter = 'none'; });
+    });
+}
+function cammy_desper() {
+    var cammyStatus = document.getElementById('cammy-status-top');
+    var cammyStatusMid = document.getElementById('cammy-status-mid');
+    var cammyStatusBot = document.getElementById('cammy-status-bot');
+
+    akiStatus.style.visibility = 'hidden';
+    akiStatusMid.style.visibility = 'hidden';
+    akiStatusBot.style.visibility = 'hidden';
+
+    const bg = ["aki_img_person", "aki_p_hover"];
+    bg.forEach((some) => {
+    Array.from(document.getElementsByClassName(some)).forEach((element) => { element.style.filter = 'none'; });
+    });
+}
+function aki_desper() {
+    var akiStatus = document.getElementById('aki-status-top');
+    var akiStatusMid = document.getElementById('aki-status-mid');
+    var akiStatusBot = document.getElementById('aki-status-bot');
+
+    akiStatus.style.visibility = 'hidden';
+    akiStatusMid.style.visibility = 'hidden';
+    akiStatusBot.style.visibility = 'hidden';
+
+    const bg = ["aki_img_person", "aki_p_hover"];
+    bg.forEach((some) => {
+    Array.from(document.getElementsByClassName(some)).forEach((element) => { element.style.filter = 'none'; });
+    });
+}
 function aki_desper() {
     var akiStatus = document.getElementById('aki-status-top');
     var akiStatusMid = document.getElementById('aki-status-mid');
