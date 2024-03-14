@@ -28,6 +28,7 @@ body {
     background-image:
     linear-gradient(to top, rgb(0, 0, 0), rgba(59, 59, 59, 0)),
     url('../img/background.jpg');
+    background-size:cover;
 }
 .header {
     display: grid;
@@ -114,7 +115,7 @@ main {
     position: relative;
 }
 
-.personagem .aki-status{
+.personagem .status{
     visibility: hidden;
     position: absolute;
     width: 20rem;
@@ -122,6 +123,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .personagem .status-top {
@@ -132,28 +134,28 @@ main {
     background-repeat: no-repeat;
 }
 
-#aki-status{
+#aki-status-top{
     background-image: url(../img/aki-pixel.png);
     background-size: 16.2rem;
     background-position-x: 2.9rem;
     background-position-y: -5rem;
 }
 
-#cammy-status {
+#cammy-status-top {
     background-image: url(../img/cammy-pixel.png);
     background-size: 19rem;
     background-position-x: 2.9rem;
     background-position-y: -3.4rem;
 }
 
-#marissa-status {
+#marissa-status-top {
     background-image: url(../img/marisa-pixel.png);
     background-size: 15.5rem;
     background-position-x: 2.9rem;
     background-position-y: -1.5rem;
 }
 
-#juri-status {
+#juri-status-top {
     background-image: url(../img/juri-pixel.png);
     background-size: 15rem;
     background-position-x: 2.9rem;
@@ -200,40 +202,78 @@ main {
     text-shadow: 0px 2px 4px rgb(0, 0, 0)
 }
 
-.img_person{
+.cammy_img_person{
     height: 38rem;
     width: 33rem;
     transform: skew(20deg);
     position: relative;
 }
-
+.marisa_img_person{
+    height: 38rem;
+    width: 33rem;
+    transform: skew(20deg);
+    position: relative;
+}
+.juri_img_person{
+    height: 38rem;
+    width: 33rem;
+    transform: skew(20deg);
+    position: relative;
+}
 .aki_img_person{
     height: 38rem;
     width: 33rem;
     transform: skew(20deg);
     position: relative;
 }
-.p_hover {
-    height: 45rem;
-    width: 23.8rem;
-    position:absolute;
-    opacity: 0;
-}
+
 .aki_p_hover {
     height: 45rem;
     width: 23.8rem;
     position:absolute;
     opacity: 0;
 }
+.cammy_p_hover {
+    height: 45rem;
+    width: 23.8rem;
+    position:absolute;
+    opacity: 0;
+}
+.marisa_p_hover {
+    height: 45rem;
+    width: 23.8rem;
+    position:absolute;
+    opacity: 0;
+}
+.juri_p_hover {
+    height: 45rem;
+    width: 23.8rem;
+    position:absolute;
+    opacity: 0;
+}
 
-.p_hover:hover{
+.aki_p_hover:hover{
     opacity: 1;
     height: 38rem;
-    width: 33rem;
+    width: 33rem;;
     transform: skew(20deg);
     transition: opacity 0.4s;
 }
-.aki_p_hover:hover{
+.cammy_p_hover:hover{
+    opacity: 1;
+    height: 38rem;
+    width: 33rem;;
+    transform: skew(20deg);
+    transition: opacity 0.4s;
+}
+.marisa_p_hover:hover{
+    opacity: 1;
+    height: 38rem;
+    width: 33rem;;
+    transform: skew(20deg);
+    transition: opacity 0.4s;
+}
+.juri_p_hover:hover{
     opacity: 1;
     height: 38rem;
     width: 33rem;;

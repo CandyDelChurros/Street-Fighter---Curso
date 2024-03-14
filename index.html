@@ -27,15 +27,17 @@
             </div>
         </header>
         <main>
-            <div class="tittle"> <span>Lutadores</span> </div>
+            <div class="tittle"> <span>LUTADORES</span> </div>
             <div class="lutadores">
                 <div id="aki" class="personagem">
+                        
                     <img class="aki_img_person" src="img/aki_houver.png">
                     <img class= "aki_p_hover" src="img/aki.png" onclick="aki()">
-                    <div class="aki-status">
-                        <div id="aki-status" class="status-top">
-                        </div>
-                        <div id="aki-status-mid" class="status-mid">
+
+                    <div class="status" id="aki-status">
+                        <div class="status-top" id="aki-status-top"></div>
+                        
+                        <div class="status-mid" id="aki-status-mid">
                             <p>Tipo</p>
                             <span>Tricky</span>
                             <p>Alcance Efetivo</p>
@@ -43,17 +45,18 @@
                             <p>Raridade</p>
                             <span>Lenda</span>
                         </div>
-                        <div id="aki-status-bot" class="status-bot">
+                        
+                        <div class="status-bot" id="aki-status-bot">
                             <button>Mais</button>
-                            <button onclick="desaparecer()">Voltar</button>
+                            <button onclick="aki_desper()">Voltar</button>
                         </div>
                     </div>
                 </div>
                 <div id="cammy" class="personagem">
-                    <img class="img_person" src="img/cammy_hover.png">
-                    <img class="p_hover" src="img/cammy.png" alt="">
-                    <div class="cammy">
-                        <div id="cammy-status" class="status-top">
+                    <img class="cammy_img_person" src="img/cammy_hover.png">
+                    <img class="cammy_p_hover" src="img/cammy.png" onclick="cammy()">
+                    <div class="status" id="cammy-status">
+                        <div id="cammy-status-top" class="status-top">
                         </div>
                         <div id="cammy-status-mid" class="status-mid">
                             <p>Tipo</p>
@@ -70,10 +73,10 @@
                     </div>
                 </div>
                 <div id="marisa" class="personagem">
-                    <img class="img_person" src="img/marisa_houver.png">
-                    <img class="p_hover" src="img/marisa.png" alt="">
-                    <div class="marissa-status">
-                        <div id="marissa-status" class="status-top">
+                    <img class="marisa_img_person" src="img/marisa_houver.png">
+                    <img class="marisa_p_hover" src="img/marisa.png" onclick="marisa()">
+                    <div class="status">
+                        <div id="marissa-status-top" class="status-top">
                         </div>
                         <div id="marissa-status-mid" class="status-mid">
                             <p>Tipo</p>
@@ -90,10 +93,10 @@
                     </div>
                 </div>
                 <div id="juri" class="personagem">
-                    <img class="img_person" src="img/juri_houver.png">
-                    <img class="p_hover" src="img/juri.png" alt="">
-                    <div class="juri-status">
-                        <div id="juri-status" class="status-top">
+                    <img class="juri_img_person" src="img/juri_houver.png">
+                    <img class="juri_p_hover" src="img/juri.png" onclick="juri()">
+                    <div class="status">
+                        <div id="juri-status-top" class="status-top">
                         </div>
                         <div id="juri-status-mid" class="status-mid">
                             <p>Tipo</p>
