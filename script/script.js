@@ -83,7 +83,7 @@ function marissa_desper() {
     marissaStatusMid.style.visibility = 'hidden';
     marissaStatusBot.style.visibility = 'hidden';
 
-    const bg = ["marissa_img_person", "marissa_p_hover"];
+    const bg = ["marisa_img_person", "marisa_p_hover"];
     bg.forEach((some) => {
     Array.from(document.getElementsByClassName(some)).forEach((element) => { element.style.filter = 'none'; });
     });

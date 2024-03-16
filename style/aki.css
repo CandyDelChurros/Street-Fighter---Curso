@@ -1,0 +1,24 @@
+.container {
+    background-image: url(../img/bg_aki.jpg);
+}
+
+.info {
+    border: .1rem solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.main-left{
+    border: .1rem solid red;
+}
+.main{
+    border: .1rem solid green;
+}
+.main img {
+    width: 5rem;
+}
+.main-right{
+    border: .1rem solid yellow;
+}

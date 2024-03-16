@@ -132,34 +132,38 @@ main {
     height: 14rem;
     margin-top: 3rem;
     background-repeat: no-repeat;
+    background-size: 16.2rem;
+    background-position-x: 2.9rem;
+    background-position-y: -5rem;
 }
 
 #aki-status-top{
     background-image: url(../img/aki-pixel.png);
     background-size: 16.2rem;
     background-position-x: 2.9rem;
-    background-position-y: -5rem;
+    background-position-y: -3.5rem;
 }
 
 #cammy-status-top {
     background-image: url(../img/cammy-pixel.png);
-    background-size: 19rem;
+    background-size: 17rem;
     background-position-x: 2.9rem;
     background-position-y: -3.4rem;
 }
 
 #marissa-status-top {
     background-image: url(../img/marisa-pixel.png);
-    background-size: 15.5rem;
-    background-position-x: 2.9rem;
-    background-position-y: -1.5rem;
+    background-size: 14rem;
+    background-position-x: 4rem;
+    background-position-y: -1.2rem;
 }
 
 #juri-status-top {
     background-image: url(../img/juri-pixel.png);
-    background-size: 15rem;
-    background-position-x: 2.9rem;
-    background-position-y: -1.5rem;
+    background-size: 14rem;
+    background-position-x: 4rem;
+    background-position-y: -1.2rem;
+
 }
 .personagem .status-mid {
     height: 15rem;
@@ -199,7 +203,8 @@ main {
     border: .1rem solid #fff;
     background: linear-gradient(90deg, rgb(197, 0, 187),rgb(100, 0, 139), rgb(100, 0, 139), rgb(197, 0, 187));
     color: #fff;
-    text-shadow: 0px 2px 4px rgb(0, 0, 0)
+    text-shadow: 0px 2px 4px rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .cammy_img_person{
