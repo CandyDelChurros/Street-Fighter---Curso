@@ -1,24 +1,58 @@
 .container {
-    background-image: url(../img/bg_aki.jpg);
+    background-image:
+    linear-gradient(to top, rgb(0, 0, 0), rgba(59, 59, 59, 0)),
+    url('../img/bg_aki.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 'top top top'
+    'mid mid mid';
+    grid-template-columns:35rem 1fr 30rem;
+    grid-template-rows:4.5rem 1fr;
+    z-index: auto;
+}
+
+top {
+    grid-area: top;
+    z-index: 1;
+
+}
+.header {
+    background: linear-gradient(0deg, rgba(79,5,80,0.6152836134453781) 0%, rgba(0,0,0,1) 100%);
+}
+
+mid{
+    grid-area: mid;
 }
 
 .info {
-    border: .1rem solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:grid;
+    grid-template-areas: 'left center right'
+    'left center right'
+    'left center right';
     position: relative;
+    grid-template-columns:35rem 1fr 30rem;
+    grid-template-rows: 1fr
 }
 
 .main-left{
-    border: .1rem solid red;
+    grid-area: left;
 }
-.main{
-    border: .1rem solid green;
+.main-aki {
+    border: .1rem solid white;
+    position: absolute;
+    top: -13rem;
+    left: -30rem;
+    grid-area: center;
+    z-index: 0;
 }
+.main-aki img {
+    height: 100rem;
+
+}
+
 .main img {
     width: 5rem;
 }
 .main-right{
-    border: .1rem solid yellow;
+    grid-area: right;
 }

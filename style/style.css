@@ -33,7 +33,7 @@ body {
 .header {
     display: grid;
     grid-template-columns: 37rem 50rem 10fr;
-    border-bottom: .1rem solid rgb(126, 126, 126);
+    border-bottom: .1rem solid #fff;
     box-shadow: 3px 10px 29px -2px rgb(33, 0, 77);
 }
 .logo {
